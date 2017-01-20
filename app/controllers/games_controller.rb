@@ -1,6 +1,6 @@
 class GamesController < ApplicationController
   def guess_the_number
-  	@name = params["name"]
+  	@name = params[:name]
 
   	@message = ""
   	chars = @name.split("")
@@ -9,7 +9,7 @@ class GamesController < ApplicationController
   		@message = "Hey #{@name.capitalize} your name starts with the first letter of the alphabet!"
   	end
 
-  	@guess = params["guess"]
+  	@guess = params[:guess]
 
   	number = 36
 
@@ -18,11 +18,11 @@ class GamesController < ApplicationController
   	@low = ""
 
 	  if @guess.to_i == number
-	  	@win = "Aloooo, you live dangerously, maybe that's why you got it right! YOU WON THE GAME"
+	  	@win = "Incredible!!! YOU WON THE GAME"
 	  elsif @guess.to_i < number
-	  	@high = "Guess higher"
+	  	@high = "You don't need to guess this low, PLZ Guess higher"
 	  elsif @guess.to_i > number
-	  	@low = "Guess lower"
+	  	@low = "Oh boy! Guess lower"
 	  end
   end
 end

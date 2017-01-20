@@ -5,9 +5,7 @@ This ruby application is an application of the powerful RUby Params. In this gam
 
 ##_INSTRUCTIONS_
 
-* Enter your name
-
-* Guess a number
+* Enter your name and your guess in the address bar. (?name=25)
 
 * If you fail you will be prompted to guess higher or lower.
 

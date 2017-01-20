@@ -1,24 +1,15 @@
-# README
+# Params Guess the number game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This ruby application is an application of the powerful RUby Params. In this game the player will us the bwrowser address bar to play guess the number game.
 
-Things you may want to cover:
 
-* Ruby version
+##_INSTRUCTIONS_
 
-* System dependencies
+* Enter your name
 
-* Configuration
+* Guess a number
 
-* Database creation
+* If you fail you will be prompted to guess higher or lower.
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+****
